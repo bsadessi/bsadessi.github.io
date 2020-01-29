@@ -1,0 +1,53 @@
+/*Css Document*/ 
+
+h1{
+    color:lightskyblue;
+    text-transform:uppercase;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:3em;
+}
+
+h2{
+    font-family:serif;
+    text-align:center;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    
+
+}
+
+h3{
+    font-family:serif;
+    text-align: center;
+}
+
+h4{
+    margin-top:1.5em;
+    margin-bottom:-0.5em;
+    font-family:serif;
+    
+}
+
+
+hr{
+    width:45%;
+}
+
+li{
+    list-style-type:none;  
+
+}
+
+.price {
+    font-family: serif;
+    margin-top:-0.5em; 
+    text-align: right;
+    
+}
+
+.description{
+    font-family:sans-serif;
+    font-size:0.75em;
+    color:gray;
+}
