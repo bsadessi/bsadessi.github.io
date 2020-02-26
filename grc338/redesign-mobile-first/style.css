@@ -3,7 +3,7 @@ img {width: 100%; }
 
 .logo{
         margin:auto;
-        Width:75%  
+        Width:45%  
 }
 
 
@@ -12,47 +12,53 @@ img {width: 100%; }
     text-align: center;
     margin:.5em 1.5em;
 }
+
 li{
     list-style-type:none;
 }
 
 ul{
-    margin:0 0em;
+    margin:1em 0em;
+    padding:0em;
+    text-align:center;
+
 }
 
 nav ul li {
-    float:left;
+    display:inline;
     font-family:serif;
-    text-align: center;
     margin:0em 1.5em;
-    position:relative;
 }
 
 nav li{ display: inline;}
 
 nav{
-    background-color: #000000;
     min-height: 2em;
 }
 
 a {
     text-decoration:none;
-    color:#ffffff;
+    font-size: 1.5em;
+    color:#AC2F0D;
     text-align: center;
 }
 
 nav a:hover{
     
-    background-color: #ddd;
     color: black;
 }
 
 .chef{
-    margin:2em auto 0em auto;
+    margin:2em auto;
+    width:60%;
+    display: block;
+    
 }
+
 .information{
+    font-family: 'Lato';
     text-align:center;
-    font-size:0.75em;
+    font-size:1em;
 }
 
 .storehours{
@@ -63,15 +69,16 @@ nav a:hover{
 }
 
 h5{
+    font-family: 'Lato';
     font-size:1em;
     margin: 0.5em;
     text-align: center;
     }
 
 .hours ul li{
-    font-size: 0.75em;
+    font-family: 'Lato';
+    font-size: 1em;
     text-align: center;
-    font-family: serif;
     margin:0.5em;
 }
 
@@ -84,9 +91,10 @@ h5{
 
 /*--------menu.html-----------*/
 
-.mainmenu{
+.mainmenu {
     text-align: center;
     margin:2em auto 0em auto;
+    
 }
 
 h2{
@@ -94,26 +102,47 @@ h2{
 }
 
 hr{
-    Margin:1em;
+    margin:auto;
+    width:50%;
+    
 } 
 
 .titles{
     
     margin: 2em auto 2em auto;
+    color:#AC2F0D;
+}
+
+.price{
+    font-family: cursive;
 }
 
 /*--------image.html-----------*/
 
 .images{
     
-    margin: 2em auto;
+    margin: 4em auto;
+    width:50%;
+    padding-bottom:4em;
 }
+
+.food{
+    Margin-bottom:2em;
+}
+
+
 
 /*--------location.html-----------*/
 
 .googlemap{
     
-    margin: 2em auto;
+    margin: 4em auto;
     text-align: center;
-    max-width: inherit;
+    width: 60%;
+    
+}
+
+.info{ 
+    font-family: serif;
+    Margin-top:3em;
 }
