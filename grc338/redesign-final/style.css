@@ -1,9 +1,12 @@
 img {width: 100%; }
 
+body{ 
+background-color:#FFFFFA;
+}
 
 .logo{
         margin:auto;
-        Width:45%  
+        Width:40%  
 }
 
 
@@ -104,7 +107,7 @@ h2{
 
 hr{
     margin:auto;
-    width:50%;
+    width:70%;
     
 } 
 
@@ -124,7 +127,7 @@ hr{
     
     margin: 4em auto;
     padding-bottom:4em;
-    max-width: 25em;
+    max-width: 35em;
 }
 
 /*
