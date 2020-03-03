@@ -1,0 +1,159 @@
+img {width: 100%; }
+
+
+.logo{
+        margin:auto;
+        Width:45%  
+}
+
+
+.lists{
+    font-size:1em;
+    text-align: center;
+    margin:.5em 1.5em;
+}
+
+li{
+    list-style-type:none;
+}
+
+ul{
+    margin:1em 0em;
+    padding:0em;
+    text-align:center;
+
+}
+
+nav ul li {
+    display:inline;
+    font-family:serif;
+    margin:0em 1.5em;
+}
+
+nav li{ display: inline;}
+
+nav{
+    min-height: 2em;
+}
+
+a {
+    text-decoration:none;
+    font-size: 1.5em;
+    color:#AC2F0D;
+    text-align: center;
+}
+
+nav a:hover{
+    
+    color: black;
+}
+
+.chef{
+    margin:2em auto;
+    width:80%;
+    display: block;
+    
+}
+
+.information{
+    font-family: 'Lato';
+    text-align:center;
+    font-size:1em;
+}
+
+.storehours{
+    font-size:1.25em;
+    color:#FBA806;
+    margin: 10em 0em 0em 0.25em;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Lato';
+    font-size:1em;
+    margin: 0.5em;
+    text-align: center;
+    }
+
+.hours ul li{
+    font-family: 'Lato';
+    font-size: 1em;
+    text-align: center;
+    margin:0.5em;
+}
+
+.hours ul{
+    padding:0;
+    margin:1em;
+}
+
+
+
+/*--------menu.html-----------*/
+
+.mainmenu {
+    text-align: center;
+    margin:2em auto 0em auto;
+    
+}
+
+h2{
+    text-align:center;
+}
+
+
+hr{
+    margin:auto;
+    width:50%;
+    
+} 
+
+.titles{
+    
+    margin: 2em auto 2em auto;
+    color:#AC2F0D;
+}
+
+.price{
+    font-family: cursive;
+}
+
+/*--------image.html-----------*/
+
+.images{
+    
+    margin: 4em auto;
+    padding-bottom:4em;
+    max-width: 25em;
+}
+
+/*
+@media only screen and (min-width:25em){
+    div.images{
+        width:45%;
+        float:left;
+    }
+}
+
+*/
+
+.food{
+    Margin-bottom:2em;
+}
+
+
+
+/*--------location.html-----------*/
+
+.googlemap{
+    
+    margin: 4em auto;
+    text-align: center;
+    width: 70%;
+    
+}
+
+.info{ 
+    font-family: serif;
+    Margin-top:3em;
+}
