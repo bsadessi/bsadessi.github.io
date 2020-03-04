@@ -1,12 +1,12 @@
 img {width: 100%; }
 
 body{ 
-background-color:#FFFFFA;
+    background-color:#FFFFFA;
 }
 
 .logo{
-        margin:auto;
-        Width:40%  
+    margin:auto;
+    Width:40%  
 }
 
 
@@ -17,7 +17,7 @@ background-color:#FFFFFA;
 }
 
 li{
-    list-style-type:none;
+  list-style-type:none;
 }
 
 ul{
@@ -47,15 +47,13 @@ a {
 }
 
 nav a:hover{
-    
     color: black;
 }
 
-.chef{
+.plate{
     margin:2em auto;
-    width:80%;
+    width:90%;
     display: block;
-    
 }
 
 .information{
@@ -67,7 +65,7 @@ nav a:hover{
 .storehours{
     font-size:1.25em;
     color:#FBA806;
-    margin: 10em 0em 0em 0.25em;
+    margin: 3em 0em 0em 0.25em;
     text-align: center;
 }
 
@@ -76,7 +74,7 @@ h5{
     font-size:1em;
     margin: 0.5em;
     text-align: center;
-    }
+}
 
 .hours ul li{
     font-family: 'Lato';
@@ -97,7 +95,6 @@ h5{
 .mainmenu {
     text-align: center;
     margin:2em auto 0em auto;
-    
 }
 
 h2{
@@ -112,33 +109,22 @@ hr{
 } 
 
 .titles{
-    
     margin: 2em auto 2em auto;
     color:#AC2F0D;
 }
 
 .price{
     font-family: cursive;
+    margin-bottom: 3em;
 }
 
 /*--------image.html-----------*/
 
 .images{
-    
     margin: 4em auto;
     padding-bottom:4em;
     max-width: 35em;
 }
-
-/*
-@media only screen and (min-width:25em){
-    div.images{
-        width:45%;
-        float:left;
-    }
-}
-
-*/
 
 .food{
     Margin-bottom:2em;
@@ -149,14 +135,13 @@ hr{
 /*--------location.html-----------*/
 
 .googlemap{
-    
     margin: 4em auto;
     text-align: center;
     width: 70%;
-    
 }
 
 .info{ 
-    font-family: serif;
+    font-family: 'Lato';
     Margin-top:3em;
+    text-align: center;
 }
